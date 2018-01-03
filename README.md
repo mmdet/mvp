@@ -1,7 +1,6 @@
 # mvp
-=
 
-对android的mvp架构的封装，为了在使用过程中更简单。
+这是我对android的mvp架构的封装，为了在使用过程中更简单。
 
 该框架特点：
 ----
@@ -27,6 +26,11 @@ view层继承MvpView
 presenter层继承MvpPresenter
 
 activity/fragment继承MvpActivity/MvpFragment
+
+view与presenter获得：
+------
+getMvpView();
+getMvpPresenter();
 
 
 
