@@ -30,6 +30,7 @@ activity/fragment继承MvpActivity/MvpFragment
 view与presenter获得：
 ------
 getMvpView();
+
 getMvpPresenter();
 
 
